@@ -24,6 +24,7 @@
                         if($random_number == $winning_number) {
                             # Note how we're storing our results in an array called $contestants. Again, $value is the name that was typed in.
                             $contestants[$value] = "Winner";
+                            mail($input_name,'WINNER','Congratulations! You have won raffle v2!');
                         }
                         else {
                             $contestants[$value] = "Loser";            
