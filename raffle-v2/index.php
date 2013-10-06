@@ -18,10 +18,10 @@
 <!-- Our form to accept new contestants -->
         <form method='POST' action='index.php'>
             Enter the contestants<br>
-            <input type='text' name='contestant1'><br>
-            <input type='text' name='contestant2'><br>
-            <input type='text' name='contestant3'><br>
-            <input type='text' name='contestant4'><br>
+            <input type='text' name='contestant1' autocomplete='off'><br>
+            <input type='text' name='contestant2' autocomplete='off'><br>
+            <input type='text' name='contestant3' autocomplete='off'><br>
+            <input type='text' name='contestant4' autocomplete='off'><br>
             
             <input type='submit' value='Pick a winner!'><br>
         </form>    
