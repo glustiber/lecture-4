@@ -22,6 +22,8 @@
     <?php foreach($contestants as $key => $value): ?>
         <?=$key?> is a <?=$value?><br>
     <?php endforeach; ?>
+    <br>
+    <?=$result?><br>
     
 </body>
 
