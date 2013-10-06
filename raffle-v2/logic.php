@@ -1,4 +1,3 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/view-source/ok-to-show.php'); ?>
 <?php
     # When debugging, we can print_r the $_POST. Now, it's commented out because we don't need it.
     //print_r($_POST);

@@ -5,7 +5,7 @@
 
 	<meta charset="UTF-8">
 
-	<title>Lecture 4 - Raffle v1</title>
+	<title>Lecture 4 - Raffle v2</title>
 
 	<?php
 		require_once('logic.php');
@@ -16,7 +16,7 @@
 <body>
 
 <!-- Our form to accept new contestants -->
-        <form method='POST' action='demo.php'>
+        <form method='POST' action='index.php'>
             Enter the contestants<br>
             <input type='text' name='contestant1'><br>
             <input type='text' name='contestant2'><br>
